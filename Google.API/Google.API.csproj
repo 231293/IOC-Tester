@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Lamar" Version="4.3.1" />
+    <PackageReference Include="Lamar.Microsoft.DependencyInjection" Version="4.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Google.BusinessLayer\Google.BusinessLayer.csproj" />
+    <ProjectReference Include="..\Google.Domain\Google.Domain.csproj" />
+  </ItemGroup>
+
+
+</Project>
